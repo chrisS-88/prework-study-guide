@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study Guide</title>
+    <link href="assets/style.css" rel="stylesheet" />
   </head>
   <body>
     <header id="top">
@@ -28,7 +29,42 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>CSS notes here</li>
+          <li>
+            If you set display to flex, all children inside of the container
+            become a flex item. They will be automatically arranged into a row
+            and each element will be the same width as their content. The flex
+            container spans its own width, and each child has to fit in the
+            container's width.
+          </li>
+          <li>
+            If you set display to inline-flex, it makes the flex container
+            behave like an inline element.
+          </li>
+          <li>
+            flex-direction can change the direction from horizontal or vertical
+            with 'row' & 'column'.
+          </li>
+          <li>
+            To adjust the sizing of flex items, you will use the three values
+            that come along to the flex property:
+          </li>
+          <ol>
+            <li>
+              grow -> This will determine how elements will expand to fill in
+              extra space (if any) in the flex-container.
+            </li>
+            <li>
+              shrink -> This will determine how elements shrink when there isn't
+              enough space in the flex-container.
+            </li>
+            <li>basis -> will set the initial size of the flex-items.</li>
+          </ol>
+          <p class="smallText">
+            <em
+              >Use flex: grow shrink basis in exactly that order. You use this
+              on flex items only.</em
+            >
+          </p>
         </ul>
       </section>
       <section class="card" id="git-section">

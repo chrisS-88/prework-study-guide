@@ -32,11 +32,11 @@ ol {
 
 p {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+  padding: 30px 0;
 }
-
-.smallText {
-  font-size: 20px;
+li {
+  margin-bottom: 10px;
 }
 
 .card {
@@ -45,4 +45,9 @@ p {
   padding-bottom: 5px;
   border: 2px solid rgb(65, 59, 66);
   box-shadow: 5px 10px rgb(22, 88, 118);
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  background-color: rgba(22, 88, 118, 0.335);
 }
